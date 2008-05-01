@@ -1,0 +1,11 @@
+Features
+- iTunes' NSTableView* style
+- Auto column widths (average width of column cell contents)
+- Cell content overflow truncation with tail ellipsis
+- Scrolling with vertically fixed and horizontally scrolled column headers
+
+* Strictly speaking, iTunes isn't a Cocoa app, and thus doesn't use NSTableViews.
+
+To Dos
+- Column resizing (Move to Features when done)
+- Test table layout combinations

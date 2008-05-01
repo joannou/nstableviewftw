@@ -1,0 +1,94 @@
+/* Reset */
+
+table.NSTableViewFTW {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.NSTableViewFTW td {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* NSTableView (iTunes) Structures */
+
+table.NSTableViewFTW {
+	display: block;
+}
+
+table.NSTableViewFTW thead {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+table.NSTableViewFTW tbody {
+	display: block;
+	overflow: auto;
+}
+
+table.NSTableViewFTW tr {
+	display: block;
+}
+
+table.NSTableViewFTW thead tr {
+	position: absolute;
+}
+
+table.NSTableViewFTW td {
+	display: block;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+}
+
+/* NSTableView (iTunes) Styles */
+
+table.NSTableViewFTW {
+	border: 1px solid #555;
+}
+
+table.NSTableViewFTW thead {
+	height: 16px;
+	border-bottom: 1px solid #555;
+	background-image: url(background_image_for_header.png);
+}
+
+table.NSTableViewFTW tbody {
+	background-image: url(background_image_for_odd_even_rows.png);
+}
+
+table.NSTableViewFTW thead tr {
+	height: 16px;
+}
+
+table.NSTableViewFTW tbody tr {
+	height: 17px;
+}
+
+table.NSTableViewFTW td {
+	padding-left: 4px;
+	padding-right: 4px;
+	font: 11px/16px "Lucida Grande";
+	color: #000;
+}
+
+table.NSTableViewFTW thead td {
+	height: 16px;
+	background: url(left_border_and_highlight_for_header_cell.png) no-repeat;
+	font-weight: bold;
+}
+
+table.NSTableViewFTW thead td:first-child {
+	background: url(left_border_and_highlight_for_header_cell.png) no-repeat -1px;
+}
+
+table.NSTableViewFTW tbody td {
+	height: 17px;
+	border-left: 1px solid #d9d9d9;
+}
+
+table.NSTableViewFTW tbody td:first-child {
+	border-left-style: none;
+}
