@@ -1,6 +1,6 @@
 Features
 - iTunes' NSTableView* style
-- Auto column widths (average width of column cell contents)
+- Auto column widths (average width of column cell contents, but not less than column header cell content width)
 - Cell content overflow truncation with tail ellipsis
 - Scrolling with vertically fixed and horizontally scrolled column headers
 

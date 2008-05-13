@@ -34,6 +34,12 @@ var NSTableViewFTW = {
                 var aCellWidth = (aColumnOfCells.inject(0, function(anAccumulator, aCell) {
                     return anAccumulator + aCell.innerHTML.stripScripts().stripTags().strip().length;
                 }) / allRows.size()).round() * 10;
+                
+                var aHeaderCellWidth = aColumnOfCells[0].innerHTML.stripScripts().stripTags().strip().length * 10;
+                
+                if (aCellWidth < aHeaderCellWidth) {
+                    aCellWidth = aHeaderCellWidth;
+                }
         
                 aColumnOfCells.invoke('setStyle', {
                     width: aCellWidth + 'px'
