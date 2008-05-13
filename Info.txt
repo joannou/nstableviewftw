@@ -8,4 +8,6 @@ Features
 
 To Dos
 - Column resizing (Move to Features when done)
+- Column sorting
 - Test table layout combinations
+- Compatibility with "other" browsers
