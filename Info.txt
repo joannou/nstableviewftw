@@ -3,6 +3,7 @@ Features
 - Auto column widths (average width of column cell contents, but not less than column header cell content width)
 - Cell content overflow truncation with tail ellipsis
 - Scrolling with vertically fixed and horizontally scrolled column headers
+- Compatible with the latest versions of Safari (of course) and Firefox
 
 * Strictly speaking, iTunes isn't a Cocoa app, and thus doesn't use NSTableViews.
 

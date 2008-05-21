@@ -14,6 +14,7 @@ table.NSTableViewFTW td {
 
 table.NSTableViewFTW {
 	display: block;
+    -moz-box-sizing: content-box;
 }
 
 table.NSTableViewFTW thead {
