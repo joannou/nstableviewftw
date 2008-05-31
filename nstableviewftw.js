@@ -77,6 +77,8 @@ var NSTableViewFTW = {
                     backgroundPosition: '0px -' + thisTBody.scrollTop + 'px'
                 });
             });
+            
+            aTable.show();
         });
     }
 };
